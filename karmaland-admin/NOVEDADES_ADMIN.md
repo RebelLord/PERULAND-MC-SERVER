@@ -31,8 +31,6 @@
 #   ## 💥 CRASHEOS — RESUELTOS
 #   ## 🔴 CRASHEOS — PENDIENTES
 #   ## 🩹 FIXES MENORES
-#   ## 📢 ANUNCIOS / COMUNICADOS A JUGADORES
-#   ## 📝 NOTAS INTERNAS DE ADMIN
 #
 # ════════════════════════════════════════════════════════════════
 #                        ENTRADAS ACTIVAS
