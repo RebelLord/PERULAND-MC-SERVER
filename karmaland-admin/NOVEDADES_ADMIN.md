@@ -1,6 +1,6 @@
 # ╔════════════════════════════════════════════════════════════════╗
-# ║           NOVEDADES & SEGUIMIENTO — KARMALAND 5               ║
-# ║                  Documento interno de Admins                  ║
+# ║           NOVEDADES & SEGUIMIENTO — KARMALAND 5                ║
+# ║                  Documento interno de Admins                   ║
 # ╚════════════════════════════════════════════════════════════════╝
 #
 # Propósito: Registro centralizado de TODO lo que ocurre en el servidor.
