@@ -7,16 +7,6 @@
 # Sirve como herramienta de transparencia interna, comunicación entre admins.
 #
 # ────────────────────────────────────────────────────────────────
-# CÓMO USAR ESTE ARCHIVO
-# ────────────────────────────────────────────────────────────────
-#   1. Añade una nueva sección de versión/fecha al INICIO del bloque de entradas.
-#   2. Rellena solo las categorías que apliquen; elimina las vacías.
-#   3. Marca los ítems pendientes con [ ] y los resueltos con [x].
-#   4. Cuando un ítem pase de PENDIENTE a RESUELTO, muévelo a la sección
-#      correspondiente y anota la fecha de resolución.
-#   5. Un admin debe firmar cada entrada con su nombre/alias.
-#
-# ────────────────────────────────────────────────────────────────
 # ESTADOS DE ÍTEM
 # ────────────────────────────────────────────────────────────────
 #   [x]  Completado / Resuelto
@@ -51,7 +41,7 @@
 
 ---
 # [2026-05-04] — Revisión inicial de balanceo y estabilidad
-> **Admins responsable:** RebelLord, crazygames, Lavacaqrie
+> **Admins** RebelLord, crazygames, Lavacaqrie
 ---
 
 ## 🆕 NUEVAS CARACTERÍSTICAS Y CONTENIDO
@@ -169,19 +159,19 @@
 - [x] `sliceanddice-forge-4.2.4`
       → Añadido como mod de contenido
 - [x] `decocraft-3.0.11-1.21.1`
-      → Añadido como mod de contenido
+      → Añadido como mod de decoración
 - [x] `create_structures_arise-174.47.46 Release-neoforge-1.21.1`
       → Añadido como mod de contenido
 - [x] `create_connected-1.1.16-mc1.21.1`
-      → Añadido como mod de contenido
+      → Añadido como mod de contenido del mod Create
 - [x] `createdeco-2.1.3`
-      → Añadido como mod de contenido
+      → Añadido como mod de decoración y contenido del mod Create
 - [x] `copycats-3.0.4+mc.1.21.1-neoforge`
-      → Añadido como mod de contenido
+      → Añadido como mod de contenido del Create
 - [x] `createframed-1.21.1-1.7.3`
-      → Añadido como mod de contenido
+      → Añadido como mod de contenido y frames para el mod Create
 - [x] `create_aquatic_ambitions-1.21.1-2.0.2`
-      → Añadido como mod de contenido
+      → Añadido como mod de contenido marino del Create
 - [x] `deeper-oceans-2.0.0-neoforge-1.21.1` [22/05/26]
       → Añadido como mod de contenido oceánico
 - [x] `underwater_village-1.0.2-neoforge-1.21.1` [22/05/26]
@@ -189,7 +179,7 @@
 - [x] `seadwellers-1.0.0-neoforge-1.21.1` [22/05/26]
       → Añadido como mod de contenido marino (Realm RPG: Sea Dwellers)
 - [x] `simple_tuff_recipe-1.0.0-neoforge-1.21.1` [22/05/26]
-      → Añadido como mod de receta
+      → Añadido como mod de receta de estrato de Tova
 
 ---
 
