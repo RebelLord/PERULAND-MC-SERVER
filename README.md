@@ -1,2 +1,2 @@
 # PERULAND-MC-SERVER
-Minecraft notas admin
+Notas que solo los admins del server de Minecraft PERULAND van a visualizar.
