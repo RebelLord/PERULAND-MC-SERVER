@@ -16,7 +16,7 @@
 #   [?]  Sin confirmar / Necesita más info
 #
 # ────────────────────────────────────────────────────────────────
-# CATEGORÍAS DISPONIBLES
+# CATEGORÍAS
 # ────────────────────────────────────────────────────────────────
 #   ## 🆕 NUEVAS CARACTERÍSTICAS Y CONTENIDO
 #   ## ⚙️  CAMBIOS EN MECÁNICAS
@@ -39,7 +39,7 @@
 
 ---
 # [2026-05-04] — Revisión inicial de balanceo y estabilidad
-> **Admins** RebelLord, crazygames, Lavacaqrie
+> **Admins** RebelLord, cracygames, Lavacaqrie
 ---
 
 ## 🆕 NUEVAS CARACTERÍSTICAS Y CONTENIDO
