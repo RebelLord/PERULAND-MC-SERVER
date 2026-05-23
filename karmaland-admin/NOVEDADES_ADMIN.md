@@ -246,8 +246,6 @@
 
 ### Resuelto
 
-- [x] Descargados y respaldados scripts de `/kubejs/server_scripts` del servidor en `SERVER FILES/kubejs/server_scripts` para auditoría interna.
-      → Detectados como nuevos respecto a local: `admin_reload.js`, `custom_recipes.js`, `restore_stick.js`, `theurgy_recipes.js`.
-      → Resuelto: 2026-05-23 | Admin: RebelLord
+- (Sin ítems en progreso de momento.)
 
 ---
