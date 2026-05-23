@@ -48,12 +48,14 @@
 
 - [ ] Buscar mods de almacenamiento mejorado o alternativas más completas a los actuales.
       → Explorar opciones tipo `Refined Storage`, `Applied Energistics 2` u otros | 2026-05-04
-- [ ] Buscar más contenido de herramientas o utilidades para administración del servidor.
-      → Evaluar mods de admin tools, utilidades de gestión de mundo, etc. | 2026-05-04
+- [x] Buscar más contenido de herramientas o utilidades para administración del servidor.
+      → Evaluar mods de admin tools, utilidades de gestión de mundo, etc.
 
 ### Resuelto
 
-- (Sin ítems resueltos de momento.)
+- [x] Integradas utilidades clave para administración desde la sección `MODS — INSTALADOS`.
+      → Incluye `KubeJS` (recetas y scripts custom), `Configured` (edición de configs in-game), `Inv View` (revisión de inventarios de jugadores), `WorldEdit` (edición del mundo en juego), `Block History` (historial de bloques puestos/quitados) y otras herramientas de staff.
+      → Resuelto | Admin: RebelLord
 
 ---
 
@@ -159,7 +161,7 @@
 - [x] `decocraft-3.0.11-1.21.1`
       → Añadido como mod de decoración
 - [x] `create_structures_arise-174.47.46 Release-neoforge-1.21.1`
-      → Añadido como mod de contenido
+      → Añadido como mod de estructuras hechas del mod Create
 - [x] `create_connected-1.1.16-mc1.21.1`
       → Añadido como mod de contenido del mod Create
 - [x] `createdeco-2.1.3`
