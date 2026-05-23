@@ -71,6 +71,9 @@
       → Ralentiza el avance del día ejecutando `time add 1` cada 4 ticks (`DAY_SPEED_DIVIDER = 4`).
       → Fuerza clima despejado de forma periódica con `weather clear 120000` cada 36000 ticks del servidor.
       → Resuelto: 2026-05-19 | Admin: RebelLord
+- [x] Script KubeJS `admin_reload.js` detectado y revisado en servidor.
+      → Añade el comando `/serverreload` (permiso admin nivel 4), con cuenta regresiva de 10 segundos y avisos globales antes de ejecutar `reload`.
+      → Resuelto: 2026-05-23 | Admin: RebelLord
 
 ---
 
@@ -125,6 +128,12 @@
       → En `SERVER FILES/infernalmobs.cfg`, sección `entitiesalwaysinfernal`, se marcaron en `true` las entidades equivalentes de Cataclysm para forzar variante infernal.
       → Incluye: The Prowler, The Harbinger, The Leviathan, Ancient Remnant, Maledictus, Scylla, Ender Guardian, Ender Golem, Ignis, Ignited Revenant, Clawdian, Kobolediator, Wadjet, Aptrgangr y Amethyst Crab.
       → Resuelto: 2026-05-22 | Admin: RebelLord
+- [x] Script KubeJS `custom_recipes.js` detectado y revisado en servidor.
+      → Añade receta `create:compacting` para obtener `minecraft:tuff` usando `minecraft:cobblestone` + `minecraft:quartz` + 250 mB de agua.
+      → Resuelto: 2026-05-23 | Admin: RebelLord
+- [x] Script KubeJS `theurgy_recipes.js` detectado y revisado en servidor.
+      → Añade receta de incubación de Theurgy para obtener `minecraft:nether_star` con ingredientes alquímicos del mod.
+      → Resuelto: 2026-05-23 | Admin: RebelLord
 
 ---
 
@@ -237,6 +246,8 @@
 
 ### Resuelto
 
-- (Sin ítems resueltos de momento.)
+- [x] Descargados y respaldados scripts de `/kubejs/server_scripts` del servidor en `SERVER FILES/kubejs/server_scripts` para auditoría interna.
+      → Detectados como nuevos respecto a local: `admin_reload.js`, `custom_recipes.js`, `restore_stick.js`, `theurgy_recipes.js`.
+      → Resuelto: 2026-05-23 | Admin: RebelLord
 
 ---
