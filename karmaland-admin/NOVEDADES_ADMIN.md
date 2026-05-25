@@ -66,15 +66,13 @@
 
 ### Resuelto
 
-- [x] Script KubeJS `time_weather_control.js` aplicado en servidor.
+- [x] Script KubeJS `time_weather_control.js` aplicado y actualizado en servidor.
       → Ralentiza el avance del día ejecutando `time add 1` cada 4 ticks (`DAY_SPEED_DIVIDER = 4`).
       → Fuerza clima despejado de forma periódica con `weather clear 120000` cada 36000 ticks del servidor.
-- [x] Script KubeJS `admin_reload.js` detectado y revisado en servidor.
-      → Añade el comando `/serverreload` (permiso admin nivel 4), con cuenta regresiva de 10 segundos y avisos globales antes de ejecutar `reload`.
-- [x] Script KubeJS `time_weather_control.js` actualizado en servidor.
-      → Mantiene días largos (`time add 1` cada 4 ticks) y clima despejado periódico (`weather clear 120000` cada 36000 ticks).
       → Añade salto manual de noche cuando duerme al menos el 50% de jugadores conectados (`SLEEP_PERCENTAGE = 50`).
       → Al cumplirse el porcentaje, ejecuta `time set day`, limpia clima y avisa globalmente con `tellraw`.
+- [x] Script KubeJS `admin_reload.js` detectado y revisado en servidor.
+      → Añade el comando `/serverreload` (permiso admin nivel 4), con cuenta regresiva de 10 segundos y avisos globales antes de ejecutar `reload`.
 
 ---
 
