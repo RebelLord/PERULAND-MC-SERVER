@@ -48,8 +48,6 @@
 
 - [ ] Buscar mods de almacenamiento mejorado o alternativas más completas a los actuales.
       → Explorar opciones tipo `Refined Storage`, `Applied Energistics 2` u otros | 2026-05-04
-- [x] Buscar más contenido de herramientas o utilidades para administración del servidor.
-      → Evaluar mods de admin tools, utilidades de gestión de mundo, etc.
 
 ### Resuelto
 
@@ -205,10 +203,9 @@
 ## ❌ MODS — ELIMINADOS / DESHABILITADOS
 
 - [x] `tombstone-neoforge-1.21.1-9.4.8` (Corail Tombstone)
-      → Deshabilitado/Eliminado del servidor
+      → Deshabilitado/Eliminado del servidor (Otro Mod usado en su lugar)
 - [x] `Carry On` (última versión usada en el pack)
-      → Deshabilitado/Eliminado del servidor
-
+      → Deshabilitado/Eliminado del servidor (Ver sección CRASHEOS - Resueltos )
 ---
 
 ## 🐛 BUGS Y ERRORES
