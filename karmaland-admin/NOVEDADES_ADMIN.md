@@ -39,7 +39,7 @@
 
 ---
 # [2026-05-04] — Revisión inicial de balanceo y estabilidad
-> **Admins** RebelLord, cracygames, Lavacaqrie
+> **Admins** RebelLord, cracygames, WebbyPainter370
 ---
 
 ## 🆕 NUEVAS CARACTERÍSTICAS Y CONTENIDO
@@ -55,7 +55,6 @@
 
 - [x] Integradas utilidades clave para administración desde la sección `MODS — INSTALADOS`.
       → Incluye `KubeJS` (recetas y scripts custom), `Configured` (edición de configs in-game), `Inv View` (revisión de inventarios de jugadores), `WorldEdit` (edición del mundo en juego), `Block History` (historial de bloques puestos/quitados) y otras herramientas de staff.
-      → Resuelto | Admin: RebelLord
 
 ---
 
@@ -70,10 +69,12 @@
 - [x] Script KubeJS `time_weather_control.js` aplicado en servidor.
       → Ralentiza el avance del día ejecutando `time add 1` cada 4 ticks (`DAY_SPEED_DIVIDER = 4`).
       → Fuerza clima despejado de forma periódica con `weather clear 120000` cada 36000 ticks del servidor.
-      → Resuelto: 2026-05-19 | Admin: RebelLord
 - [x] Script KubeJS `admin_reload.js` detectado y revisado en servidor.
       → Añade el comando `/serverreload` (permiso admin nivel 4), con cuenta regresiva de 10 segundos y avisos globales antes de ejecutar `reload`.
-      → Resuelto: 2026-05-23 | Admin: RebelLord
+- [x] Script KubeJS `time_weather_control.js` actualizado en servidor.
+      → Mantiene días largos (`time add 1` cada 4 ticks) y clima despejado periódico (`weather clear 120000` cada 36000 ticks).
+      → Añade salto manual de noche cuando duerme al menos el 50% de jugadores conectados (`SLEEP_PERCENTAGE = 50`).
+      → Al cumplirse el porcentaje, ejecuta `time set day`, limpia clima y avisa globalmente con `tellraw`.
 
 ---
 
@@ -99,9 +100,10 @@
 ### Resuelto
 
 - [x] Nerf del mod `Paraglider`: límite de corazones ajustado para evitar acumulación excesiva.
-      → Config aplicado: `maxHeartContainers = 10` (máximo final: 20 corazones totales) | Resuelto: 2026-05-04 | Admin: RebelLord
+      → Config aplicado: `maxHeartContainers = 10` (máximo final: 20 corazones totales) | Resuelto: 2026-05-04
 - [x] Buscar cómo automatizar el reinicio del server avisando a los players con 15 minutos de antelación.
-      → Evaluar script, tarea programada o mod/plugin que envíe avisos previos antes del restart | 2026-05-04
+      → El Panel de WinterNode deja configurar reinicios en la sección Advanced - Schedules
+      hace guardado de mundo y avisa a los jugadores de un reinicio por chat general 15 min antes, 10 mins antes, 1 min antes. | Resuelto: 2026-05-04
 
 ---
 
@@ -110,7 +112,7 @@
 ### En progreso
 
 - [~] Revisar y mejorar la experiencia del mod `Better Combat`.
-      → Ver qué opciones de config ofrece para ajustar combate, animaciones o comportamiento | Admin: RebelLord | 2026-05-04
+      → Ver qué opciones de config ofrece para ajustar combate, animaciones o comportamiento
 
 ### Resuelto
 
@@ -119,21 +121,20 @@
       → Eliminadas recetas con salida `minecraft:nether_star`.
       → Eliminadas recetas con salida `minecraft:totem_of_undying`.
       → Eliminadas recetas con salida `create:potato_cannon`.
-      → Resuelto: 2026-05-19 | Admin: RebelLord
 - [x] Script KubeJS `restore_stick.js` aplicado en servidor.
       → Se elimina la receta por defecto de `minecraft:stick`.
       → Se añade receta manual: `4x minecraft:stick` usando 2 tablones (`#minecraft:planks`) en columna.
-      → Resuelto: 2026-05-20 | Admin: RebelLord
 - [x] Buff a jefes y mini-jefes de Cataclysm mediante Infernal Mobs.
       → En `SERVER FILES/infernalmobs.cfg`, sección `entitiesalwaysinfernal`, se marcaron en `true` las entidades equivalentes de Cataclysm para forzar variante infernal.
       → Incluye: The Prowler, The Harbinger, The Leviathan, Ancient Remnant, Maledictus, Scylla, Ender Guardian, Ender Golem, Ignis, Ignited Revenant, Clawdian, Kobolediator, Wadjet, Aptrgangr y Amethyst Crab.
-      → Resuelto: 2026-05-22 | Admin: RebelLord
 - [x] Script KubeJS `custom_recipes.js` detectado y revisado en servidor.
       → Añade receta `create:compacting` para obtener `minecraft:tuff` usando `minecraft:cobblestone` + `minecraft:quartz` + 250 mB de agua.
-      → Resuelto: 2026-05-23 | Admin: RebelLord
 - [x] Script KubeJS `theurgy_recipes.js` detectado y revisado en servidor.
       → Añade receta de incubación de Theurgy para obtener `minecraft:nether_star` con ingredientes alquímicos del mod.
-      → Resuelto: 2026-05-23 | Admin: RebelLord
+- [x] Script KubeJS `custom_recipes.js` actualizado en servidor.
+      → Mantiene receta `create:compacting` para obtener `minecraft:tuff` con `minecraft:cobblestone` + `minecraft:quartz` + agua.
+      → Elimina la receta previa `create:crushing` para `minecraft:tuff` y define una nueva versión personalizada.
+      → Nueva salida de trituración de `minecraft:tuff`: `minecraft:flint` (35%), `minecraft:gold_nugget` (15%), `create:copper_nugget` (20%), `create:zinc_nugget` (20%) y `minecraft:iron_nugget` (20%).
 
 ---
 
@@ -233,9 +234,7 @@
 ### Resuelto
 
 - [x] El mod `Carry On` provocaba desconexión del servidor para todos los jugadores conectados al usarlo.
-      → Causa: el mod expulsaba al resto de jugadores cada vez que alguien moría.
-      → Resuelto: 2026-05-04 | Admin: RebelLord
-
+      → Causa: el mod expulsaba al resto de jugadores cada vez que alguien moría. Resuelto: 2026-05-04 | Admin: RebelLord
 ---
 
 ## 🩹 FIXES MENORES
