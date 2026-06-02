@@ -71,6 +71,12 @@
       → Al cumplirse el porcentaje, ejecuta `time set day`, limpia clima y avisa globalmente con `tellraw`.
 - [x] Script KubeJS `admin_reload.js` detectado y revisado en servidor.
       → Añade el comando `/serverreload` (permiso admin nivel 4), con cuenta regresiva de 10 segundos y avisos globales antes de ejecutar `reload`.
+- [x] Script KubeJS `economy_cuy_coins_commands.js` actualizado y subido al servidor. [2026-06-02]
+      → Se normalizó el formato del archivo (indentación y saltos de línea) y se reemplazó en la ruta remota `kubejs/server_scripts/economy_cuy_coins_commands.js`.
+- [x] Economía de Cuy Coins migrada a flujo KubeJS más cómodo para admins. [2026-06-02]
+      → Se consolidó el comando en `economy_cuy_coins_commands.js` para reemplazar la gestión previa por datapack y facilitar entrega manual.
+      → Nuevo uso recomendado: `/cuy give <gold|silver|bronze> <cantidad>` con validaciones de cantidad y mensajes de ayuda (`/cuy help`).
+      → Se mantienen alias antiguos (`/cuy gold`, `/cuy silver`, `/cuy bronze`) para compatibilidad.
 
 ---
 
@@ -203,7 +209,7 @@
 ## ❌ MODS — ELIMINADOS / DESHABILITADOS
 
 - [x] `tombstone-neoforge-1.21.1-9.4.8` (Corail Tombstone)
-      → Deshabilitado/Eliminado del servidor (Otro Mod usado en su lugar)
+      → Deshabilitado/Eliminado del servidor (Mod: Corpse usado en su lugar)
 - [x] `Carry On` (última versión usada en el pack)
       → Deshabilitado/Eliminado del servidor (Ver sección CRASHEOS - Resueltos )
 ---
@@ -228,7 +234,7 @@
 
 ### Resuelto
 
-- [x] El mod `Carry On` provocaba desconexión del servidor para todos los jugadores conectados al usarlo.
+- [x] El mod `Carry On` provocaba desconexión del servidor para todos los jugadores conectados cuando hacia sincronización con la tumba de player muerto.
       → Causa: el mod expulsaba al resto de jugadores cada vez que alguien moría. Resuelto: 2026-05-04 | Admin: RebelLord
 ---
 
